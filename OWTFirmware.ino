@@ -11,7 +11,7 @@ const float HX711_SCALE = 1067.3;
 float HX711_EXTRA_OFFSET = 0.0f;
 
 const int PWM_PIN = 4;
-const int PWM_FREQ = 40;
+const int PWM_FREQ = 40; // CHANGE THIS
 const int PWM_RES = 14;
 
 HX711 scale;
@@ -27,11 +27,16 @@ void AirSpeedMeterCalibrateZero();
 // OWTCommunication.ino is also appended after this primary sketch. Declare its
 // shared interface here so setup() and loop() can call it.
 void SetupBLE();
-void sendMessage(const String& message);
+extern bool deviceConnected;
 bool buildOWTPacket(String& output, uint64_t timestamp, const String& type, JsonVariantConst data);
 bool sendOWTPacket(uint64_t timestamp, const String& type, JsonVariantConst data);
 bool sendOWTPacket(const String& type, JsonVariantConst data);
 bool decodeOWTPacket(const String& json, JsonDocument& doc, uint64_t& timestamp, String& type, JsonObjectConst& data);
+bool isValidOWTType(const String& type);
+bool sendOWTEvent(const String& eventName, const String& message);
+bool sendWindTunnelStatus(JsonObjectConst statusValues);
+bool sendCommandResult(JsonObjectConst commandData, bool success, const String& message);
+bool handleCommand(JsonObjectConst commandData);
 
 void setPulseWidth(int pulse_us) {
   uint32_t maxDuty = (1UL << PWM_RES) - 1;
@@ -70,12 +75,12 @@ void setup() {
   scale.set_scale(HX711_SCALE);  // CHANGE THIS
 
   float TotalWeight = 0.0f;
-  for (int i = 0; i < 6; i++) {
-      if (!scale.is_ready()) {
-          delay(50);
-      }
-      TotalWeight += scale.get_units(2);
-      delay(100);
+  for (int i = 1; i < 6; i++) {
+    if (!scale.is_ready()) {
+        delay(50);
+    }
+    TotalWeight += scale.get_units(2);
+    delay(100);
   }
   HX711_EXTRA_OFFSET = TotalWeight / 5;
 
@@ -108,44 +113,58 @@ void loop() {
   uint32_t StartTime = millis();
 
   // Weight
-  if (!scale.is_ready()) {
-      delay(20);
+  float grams = 0.0f;
+  if (scale.is_ready()) {
+    grams = scale.get_units(3) - HX711_EXTRA_OFFSET;
+    Serial.print("Weight g: ");
+    Serial.println(grams);
   }
-  float grams = scale.get_units(2) - HX711_EXTRA_OFFSET;
-  Serial.print("Weight g: ");
-  Serial.println(grams);
 
   // AirSpeed
   float pressurePa = 0.0f;
   float tempC = 0.0f;
+  float airspeed = 0.0f;
+  float q = 0.0f;
 
-  if (readMS4525(pressurePa, tempC)) {
-    float q = pressurePa - zeroOffsetPa;
+  float pressurePa_average = 0.0f;
+  float tempC_average = 0.0f;
+  float airspeed_average = 0.0f;
+  float q_average = 0.0f;
 
-    // Ignore tiny noise
-    if (fabs(q) < 2.0f) q = 0;
+  for (int i = 1; i < 3; ) {
+    if (readMS4525(pressurePa, tempC)) {
+      q = pressurePa - zeroOffsetPa;
 
-    float airspeed = 0;
-    if (q > 0) {
-    airspeed = sqrt((2.0f * q) / AIR_DENSITY);
+      // Ignore tiny noise
+      if (fabs(q) < 2.0f) q = 0;
+
+      if (q > 0) {
+        airspeed = sqrt((2.0f * q) / AIR_DENSITY);
+      }
+
+      Serial.print("Pressure Pa: ");
+      Serial.print(q, 2);
+      Serial.print(" | Airspeed m/s: ");
+      Serial.print(airspeed, 2);
+      Serial.print(" | Temp C: ");
+      Serial.println(tempC, 2);
+
+      pressurePa_average = (pressurePa_average * (i - 1)) / i;
+      tempC_average = (tempC_average * (i - 1)) / i;
+      airspeed_average = (airspeed_average * (i - 1)) / i;
+      q_average = (q_average * (i - 1)) / i;
+
+      i++;
+    } else {
+      Serial.println("AirSpeed Read Failed.");
     }
-
-    Serial.print("Pressure Pa: ");
-    Serial.print(q, 2);
-    Serial.print(" | Airspeed m/s: ");
-    Serial.print(airspeed, 2);
-    Serial.print(" | km/h: ");
-    Serial.print(airspeed * 3.6f, 2);
-    Serial.print(" | Temp C: ");
-    Serial.println(tempC, 2);
-  } else {
-    Serial.println("Read failed");
+    delay(15);
   }
 
   // Serial Commands for PWM
   if (Serial.available()) {
     int speed = Serial.parseInt();
-    if (speed >= 1200 && speed <= 1500) {
+    if (speed >= 1000 && speed <= 2000) {
       Serial.print("Moving to ");
       Serial.println(speed);
       setPulseWidth(speed);
@@ -162,4 +181,19 @@ void loop() {
   uint32_t TimePassed = millis() - StartTime;
   Serial.print("LoopTime ms: ");
   Serial.println(TimePassed);
+
+  // Status Sending
+  static uint32_t lastStatusSendMs = 0;
+  if (deviceConnected && millis() - lastStatusSendMs >= 100) {
+    JsonDocument status;
+    status["WeightG"] = grams;
+    status["PressurePa"] = q;
+    status["AirSpeedMS"] = airspeed;
+    status["TempC"] = tempC;
+    status["LoopTimeMS"] = TimePassed;
+
+    sendWindTunnelStatus(status.as<JsonObjectConst>());
+
+    lastStatusSendMs = millis();
+  }
 }

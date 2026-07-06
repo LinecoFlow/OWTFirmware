@@ -86,8 +86,6 @@ void AirSpeedMeterCalibrateZero() {
 //     Serial.print(q, 2);
 //     Serial.print(" | Airspeed m/s: ");
 //     Serial.print(airspeed, 2);
-//     Serial.print(" | km/h: ");
-//     Serial.print(airspeed * 3.6f, 2);
 //     Serial.print(" | Temp C: ");
 //     Serial.println(tempC, 2);
 //   } else {

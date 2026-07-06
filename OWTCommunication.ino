@@ -25,17 +25,29 @@
 #define RX_CHAR_UUID        "e772e4c1-137e-4f21-b105-4957059a67ce" // Mac -> ESP32
 #define TX_CHAR_UUID        "16fe65b0-eb2f-4452-9c7a-c48236e30dda" // ESP32 -> Mac
 
+#define OWT_TYPE_STATUS         "Status"
+#define OWT_TYPE_EVENTS         "Events"
+#define OWT_TYPE_COMMANDS       "Commands"
+#define OWT_TYPE_COMMAND_RESULT "CommandResult"
+
 NimBLEServer* server = nullptr;
 NimBLECharacteristic* txChar = nullptr;
 
 bool deviceConnected = false;
 
-void sendMessage(const String& message);
 void SetupBLE();
 bool buildOWTPacket(String& output, uint64_t timestamp, const String& type, JsonVariantConst data);
 bool sendOWTPacket(uint64_t timestamp, const String& type, JsonVariantConst data);
 bool sendOWTPacket(const String& type, JsonVariantConst data);
 bool decodeOWTPacket(const String& json, JsonDocument& doc, uint64_t& timestamp, String& type, JsonObjectConst& data);
+bool isValidOWTType(const String& type);
+bool sendOWTEvent(const String& eventName, const String& message);
+bool sendWindTunnelStatus(JsonObjectConst statusValues);
+bool sendCommandResult(JsonObjectConst commandData, bool success, const String& message);
+bool handleCommand(JsonObjectConst commandData);
+bool notifyPacketJson(const String& packetJson);
+bool packetJsonHasRequiredFields(const String& packetJson);
+void setPulseWidth(int pulse_us);
 
 // ---------- Message receive callback ----------
 class RxCallback : public NimBLECharacteristicCallbacks {
@@ -55,14 +67,17 @@ class RxCallback : public NimBLECharacteristicCallbacks {
         Serial.print("Decoded packet type: ");
         Serial.println(type);
 
-        JsonDocument ackData;
-        ackData["ReceivedType"] = type;
-        ackData["ReceivedTimeStamp"] = timestamp;
-        sendOWTPacket("Ack", ackData.as<JsonVariantConst>());
+        if (type == OWT_TYPE_COMMANDS) {
+          handleCommand(data);
+        } else {
+          JsonDocument eventData;
+          eventData["Event"] = "PacketReceived";
+          eventData["ReceivedType"] = type;
+          eventData["ReceivedTimeStamp"] = timestamp;
+          sendOWTPacket(OWT_TYPE_EVENTS, eventData.as<JsonVariantConst>());
+        }
       } else {
-        JsonDocument errorData;
-        errorData["Message"] = "Invalid packet";
-        sendOWTPacket("Error", errorData.as<JsonVariantConst>());
+        sendOWTEvent("DecodeError", "Invalid packet");
       }
     }
   }
@@ -103,18 +118,38 @@ class ServerCallback : public NimBLEServerCallbacks {
   }
 };
 
-// ---------- Send message to Mac ----------
-void sendMessage(const String& message) {
-  if (!deviceConnected || txChar == nullptr) {
-    Serial.println("Cannot send: no connected Mac.");
-    return;
+// ---------- Notify packet JSON to Mac ----------
+bool packetJsonHasRequiredFields(const String& packetJson) {
+  JsonDocument doc;
+  DeserializationError error = deserializeJson(doc, packetJson);
+  if (error) {
+    return false;
   }
 
-  txChar->setValue(message.c_str());
+  if (!doc["TimeStamp"].is<uint64_t>() || !doc["Type"].is<const char*>() || !doc["Data"].is<JsonObjectConst>()) {
+    return false;
+  }
+
+  return isValidOWTType(doc["Type"].as<const char*>());
+}
+
+bool notifyPacketJson(const String& packetJson) {
+  if (!deviceConnected || txChar == nullptr) {
+    Serial.println("Cannot send packet: no connected Mac.");
+    return false;
+  }
+
+  if (!packetJsonHasRequiredFields(packetJson)) {
+    Serial.println("Refused to send packet without required TimeStamp, Type, and Data.");
+    return false;
+  }
+
+  txChar->setValue(packetJson.c_str());
   txChar->notify();
 
   Serial.print("Sent to Mac: ");
-  Serial.println(message);
+  Serial.println(packetJson);
+  return true;
 }
 
 // ---------- BLE setup ----------
@@ -155,7 +190,13 @@ void SetupBLE() {
     NIMBLE_PROPERTY::READ_ENC
   );
 
-  txChar->setValue("ESP32 ready.");
+  JsonDocument readyData;
+  readyData["Event"] = "FirmwareReady";
+  readyData["Message"] = "ESP32 ready.";
+  String readyPacket;
+  if (buildOWTPacket(readyPacket, (uint64_t)millis(), OWT_TYPE_EVENTS, readyData.as<JsonVariantConst>())) {
+    txChar->setValue(readyPacket.c_str());
+  }
 
   service->start();
 
@@ -171,12 +212,19 @@ void SetupBLE() {
 // Packet format:
 // {
 //   "TimeStamp": 123456,
-//   "Type": "SensorReading",
+//   "Type": "Status" | "Events" | "Commands" | "CommandResult",
 //   "Data": { "anything": "anything" }
 // }
 
+bool isValidOWTType(const String& type) {
+  return type == OWT_TYPE_STATUS ||
+         type == OWT_TYPE_EVENTS ||
+         type == OWT_TYPE_COMMANDS ||
+         type == OWT_TYPE_COMMAND_RESULT;
+}
+
 bool buildOWTPacket(String& output, uint64_t timestamp, const String& type, JsonVariantConst data) {
-  if (type.length() == 0 || data.isNull() || !data.is<JsonObjectConst>()) {
+  if (!isValidOWTType(type) || data.isNull() || !data.is<JsonObjectConst>()) {
     Serial.println("OpenIOTCommunication.buildOWTPacket failed: invalid type or data");
     return false;
   }
@@ -192,22 +240,79 @@ bool buildOWTPacket(String& output, uint64_t timestamp, const String& type, Json
 }
 
 bool sendOWTPacket(uint64_t timestamp, const String& type, JsonVariantConst data) {
-  if (!deviceConnected || txChar == nullptr) {
-    Serial.println("Cannot send packet: no connected Mac.");
-    return false;
-  }
-
   String output;
   if (!buildOWTPacket(output, timestamp, type, data)) {
     return false;
   }
 
-  sendMessage(output);
-  return true;
+  return notifyPacketJson(output);
 }
 
 bool sendOWTPacket(const String& type, JsonVariantConst data) {
   return sendOWTPacket((uint64_t)millis(), type, data);
+}
+
+bool sendOWTEvent(const String& eventName, const String& message) {
+  JsonDocument data;
+  data["Event"] = eventName;
+  data["Message"] = message;
+  return sendOWTPacket(OWT_TYPE_EVENTS, data.as<JsonVariantConst>());
+}
+
+bool sendWindTunnelStatus(JsonObjectConst statusValues) {
+  if (statusValues.isNull()) {
+    Serial.println("OpenIOTCommunication.sendWindTunnelStatus failed: invalid data");
+    return false;
+  }
+
+  JsonDocument data;
+  data["StatusType"] = "WindTunnelStatus";
+  for (JsonPairConst item : statusValues) {
+    data[item.key().c_str()].set(item.value());
+  }
+
+  return sendOWTPacket(OWT_TYPE_STATUS, data.as<JsonVariantConst>());
+}
+
+bool sendCommandResult(JsonObjectConst commandData, bool success, const String& message) {
+  if (commandData["CommandID"].isNull()) {
+    sendOWTEvent("ProtocolError", "Cannot send CommandResult: missing CommandID");
+    return false;
+  }
+
+  JsonDocument data;
+  data["CommandID"].set(commandData["CommandID"]);
+  data["Success"] = success;
+  data["Message"] = message;
+
+  return sendOWTPacket(OWT_TYPE_COMMAND_RESULT, data.as<JsonVariantConst>());
+}
+
+bool handleCommand(JsonObjectConst commandData) {
+  if (commandData["CommandID"].isNull() || !commandData["Command"].is<const char*>()) {
+    sendOWTEvent("ProtocolError", "Commands packet missing CommandID or Command");
+    return false;
+  }
+
+  String command = commandData["Command"].as<const char*>();
+
+  if (command == "SetPWM") {
+    if (!commandData["PulseWidthUS"].is<int>()) {
+      return sendCommandResult(commandData, false, "SetPWM missing PulseWidthUS");
+    }
+
+    int pulseWidthUS = commandData["PulseWidthUS"].as<int>();
+    if (pulseWidthUS < 1000 || pulseWidthUS > 2000) {
+      return sendCommandResult(commandData, false, "PulseWidthUS out of range");
+    }
+
+    setPulseWidth(pulseWidthUS);
+    return sendCommandResult(commandData, true, "PWM updated");
+  }
+
+  String message = "Unknown command: ";
+  message += command;
+  return sendCommandResult(commandData, false, message);
 }
 
 bool decodeOWTPacket(const String& json, JsonDocument& doc, uint64_t& timestamp, String& type, JsonObjectConst& data) {
@@ -228,6 +333,11 @@ bool decodeOWTPacket(const String& json, JsonDocument& doc, uint64_t& timestamp,
   type = doc["Type"].as<const char*>();
   data = doc["Data"].as<JsonObjectConst>();
 
+  if (!isValidOWTType(type)) {
+    Serial.println("OpenIOTCommunication.decodeOWTPacket failed: invalid Type");
+    return false;
+  }
+
   return true;
 }
 
@@ -245,7 +355,7 @@ bool decodeOWTPacket(const String& json, JsonDocument& doc, uint64_t& timestamp,
 //   static unsigned long lastSend = 0;
 
 //   if (deviceConnected && millis() - lastSend > 5000) {
-//     sendMessage("Ping from ESP32-C3");
+//     sendOWTEvent("Ping", "Ping from ESP32-C3");
 //     lastSend = millis();
 //   }
 

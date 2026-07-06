@@ -1,0 +1,930 @@
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":53358,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.00712,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":53461,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":53588,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.022394,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":53691,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":53819,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.008808,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":53922,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.03
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":54050,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.028202,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":54153,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":54280,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.010868,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":54387,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 122
+Sent to Mac: {"TimeStamp":54511,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.010681,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":122}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":54614,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":54742,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.010214,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":54845,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":54972,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.009462,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":55075,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":55203,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.005997,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":55306,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.05
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":55434,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.045534,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":55537,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":55664,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.012556,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":55767,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":55895,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.003372,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":55998,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":56126,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.01115,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":56229,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":56356,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.016958,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":56464,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 121
+Sent to Mac: {"TimeStamp":56587,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.00712,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":121}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":56690,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":56818,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.006933,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":56921,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":57048,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.005529,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":57151,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.03
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":57279,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.025391,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":57382,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":57510,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.014429,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":57613,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":57740,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.020052,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":57843,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.04
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":57971,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.043474,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":58074,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.05
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":58202,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.048159,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":58305,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.03
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":58432,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.032887,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":58539,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 122
+Sent to Mac: {"TimeStamp":58663,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.002903,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":122}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":58766,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":58894,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.016022,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":58997,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":59124,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.014616,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":59227,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.06
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":59355,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.056309,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":59458,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":59586,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.005714,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":59689,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":59816,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.0238,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":59919,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":60047,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.010214,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":60150,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":60278,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.002249,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":60381,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":60508,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.007589,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":60615,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 122
+Sent to Mac: {"TimeStamp":60739,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.003841,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":122}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":60842,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":60970,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.00712,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":61073,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":61200,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.015553,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":61303,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":61431,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.000561,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":61534,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":61662,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.020706,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":61765,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":61893,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.018646,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":61996,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":62123,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.017241,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":62226,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":62354,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.000843,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":62457,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":62585,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.018177,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":62692,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.03
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 121
+Sent to Mac: {"TimeStamp":62815,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.030075,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":121}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":62918,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.03
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":63046,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.025391,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":63149,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":63277,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.006466,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":63380,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.04
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":63507,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.040665,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":63610,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":63738,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.004591,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":63841,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.03
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":63969,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.027264,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":64072,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.03
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":64199,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.026796,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":64302,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":64430,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.010399,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":64533,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.04
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":64661,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.041601,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":64768,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 121
+Sent to Mac: {"TimeStamp":64891,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.009745,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":121}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":64994,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":65122,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.014898,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":65225,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":65353,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.00712,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":65456,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":65583,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.003654,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":65686,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.04
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":65814,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.041132,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":65917,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":66045,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.006651,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":66148,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":66275,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.005714,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":66378,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":66506,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.004124,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":66609,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":66737,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.003187,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":66844,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.03
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 121
+Sent to Mac: {"TimeStamp":66967,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.029421,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":121}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":67070,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.04
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":67198,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.037853,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 52
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":67302,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":67429,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.023985,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":67532,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":67659,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.021456,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":67762,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":67890,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.009745,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":67993,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":68121,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.001499,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":68224,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":68351,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.024454,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":68454,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.04
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":68582,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.037384,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":68685,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":68813,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.008808,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":68920,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 122
+Sent to Mac: {"TimeStamp":69044,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.021643,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":122}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":69147,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":69274,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.012741,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":69377,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":69505,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.020237,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":69608,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":69736,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.006651,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":69839,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":69966,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.001781,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":70069,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":70197,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.022112,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":70300,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: 0.04
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":70428,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0.038507,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":70531,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.04
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 125
+Sent to Mac: {"TimeStamp":70658,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.040195,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":125}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 51
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":70761,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.02
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 126
+Sent to Mac: {"TimeStamp":70889,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.01771,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":126}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 50
+Sent to Mac: {"TimeStamp":70996,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":0,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":50}}
+Weight g: -0.01
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
+LoopTime ms: 122
+Sent to Mac: {"TimeStamp":71120,"Type":"Status","Data":{"StatusType":"WindTunnelStatus","WeightG":-0.01115,"PressurePa":0,"AirSpeedMS":0,"TempC":30.99658,"LoopTimeMS":122}}
+Pressure Pa: 0.00 | Airspeed m/s: 0.00 | Temp C: 31.00
