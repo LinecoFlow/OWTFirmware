@@ -296,6 +296,10 @@ bool handleCommand(JsonObjectConst commandData) {
 
   String command = commandData["Command"].as<const char*>();
 
+  if (command == "CheckStatus") {
+    return sendCommandResult(commandData, true, "Operational.");
+  }
+
   if (command == "SetPWM") {
     if (!commandData["PulseWidthUS"].is<int>()) {
       return sendCommandResult(commandData, false, "SetPWM missing PulseWidthUS");
